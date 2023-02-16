@@ -1,0 +1,5 @@
+<div *ngIf="isLoggedIn()">
+    <button (click)="logout()">Logout from Google</button>
+    <app-dashboard *ngIf="show"></app-dashboard>
+
+</div>
